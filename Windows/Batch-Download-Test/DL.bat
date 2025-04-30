@@ -1,6 +1,6 @@
 @echo off
 cls
-call:download "http://kashileo.magix.net/public/sims3.rar" "winrar.zip"
+call:download "%URL%" "%OUTPUT%.zip"
 exit /b
 
 :download
